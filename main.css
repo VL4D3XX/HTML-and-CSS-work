@@ -1,0 +1,124 @@
+header {
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header img {
+  width: 100px;
+  height: 70px;
+}
+
+header h1,
+header h2 {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+  transition: color 0.2s;
+}
+
+header a:hover {
+  color: gray;
+}
+
+input {
+  width: 250px;
+  height: 30px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+header button {
+  width: 100px;
+  height: 40px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+header button:hover {
+  width: 120px;
+  border-radius: 50px;
+  background: black;
+  color: white;
+}
+
+nav {
+  display: flex;
+  gap: 80px;
+  padding: 20px;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  margin: 6px 0;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #777;
+  transition: color 0.2s;
+}
+
+.menu a:hover {
+  color: black;
+}
+
+h3 {
+  margin-bottom: 10px;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+.hero {
+  height: 80vh;
+  background: url("https://static.nike.com/a/images/t_web_pdp_936_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/b2e538a6-79f7-4e1f-90d0-adc1e359872d/AIR+JORDAN+4+RETRO+OG+FC.png") center/cover no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+  text-align: center;
+}
+
+.hero-content {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.hero h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 12px 25px;
+  background: white;
+  color: black;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: rgb(0, 0, 0);
+  color: white;
+}
