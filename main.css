@@ -1,13 +1,19 @@
+body{
+  background-color: #2E2836;
+}
 header {
-  background: white;
+  background: #2E2836;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  color: white;
 }
 
 header img {
-  width: 100px;
-  height: 70px;
+  width: 90px;
+  height: 80px;
+    background-color: #2E2836; 
+  display: block;
 }
 
 header h1,
@@ -17,7 +23,7 @@ header h2 {
 
 header a {
   text-decoration: none;
-  color: black;
+  color: rgb(255, 255, 255);
   transition: color 0.2s;
 }
 
@@ -26,20 +32,24 @@ header a:hover {
 }
 
 input {
-  width: 250px;
+  width: 200px;
   height: 30px;
   border-radius: 10px;
   font-size: 16px;
+  background-color:#2E2836;
+  color: white;
 }
 
 header button {
   width: 100px;
   height: 40px;
-  border: 2px solid black;
+  border: 2px solid #2E2836;
   border-radius: 10px;
-  background: white;
+  background: #2E2836;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: 0.3s;
+  font-size: 20px;
+  color:white;
 }
 
 header button:hover {
@@ -53,11 +63,14 @@ nav {
   display: flex;
   gap: 80px;
   padding: 20px;
+  justify-content: center;
+  color: white;
 }
 
 .menu {
   list-style: none;
   padding: 0;
+  color: white;
 }
 
 .menu li {
@@ -66,30 +79,25 @@ nav {
 
 .menu a {
   text-decoration: none;
-  color: #777;
+  color: #ffffff;
   transition: color 0.2s;
 }
 
 .menu a:hover {
-  color: black;
+  color: #E7CEE3;
 }
 
 h3 {
   margin-bottom: 10px;
 }
-nav {
-  display: flex;
-  justify-content: center;
-  gap: 60px;
-}
+
 .hero {
   height: 80vh;
   background: url("https://static.nike.com/a/images/t_web_pdp_936_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/b2e538a6-79f7-4e1f-90d0-adc1e359872d/AIR+JORDAN+4+RETRO+OG+FC.png") center/cover no-repeat;
-
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-
   color: white;
   text-align: center;
 }
@@ -110,7 +118,7 @@ nav {
 }
 
 .btn {
-  padding: 12px 25px;
+  padding: 10px 20px;
   background: white;
   color: black;
   text-decoration: none;
@@ -119,6 +127,154 @@ nav {
 }
 
 .btn:hover {
-  background: rgb(0, 0, 0);
+  background: black;
   color: white;
+}
+
+.products-section {
+  margin: 40px 0;
+  text-align: center;
+}
+
+.products-section h2 {
+  margin-bottom: 30px;
+}
+
+.products-row {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  width: 200px;
+    color: white;
+}
+
+.product-card img {
+  width: 100%;
+}
+
+.product-card h3 {
+  margin: 10px 0;
+color: #ffffff;
+}
+.products-section h1{
+  color: #ffffff ;
+}
+.products-section h2{
+    color: white;
+}
+
+.products-section{
+    color: white;
+}
+
+.product-card p {
+  font-size: 18px;
+  color: white;
+}
+
+del {
+  color: white;
+  margin-right: 8px;
+}
+
+.product-card button {
+  border: 2px solid #2E2836;
+  border-radius: 5px;
+
+  background-color: #2E2836;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  height: 40px;
+  width: 110px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.product-card button:hover {
+
+  background-color: black;
+  border: 2px;
+  width: 160px;
+  height: 50px;
+  font-size: 30px;
+}
+
+.product-card button:hover a {
+  color: white;
+}
+
+.product-card a {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.product-card a:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.info {
+  padding: 50px;
+  text-align: center;
+  background: #2E2836;
+  color: #e6e8e6;
+}
+
+.info h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #bb7e8c;
+}
+
+.info p {
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+footer {
+  background: #000;
+  color: #F0EDEE;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.footer-content {
+  margin-bottom: 20px;
+}
+
+.footer-content p {
+  margin: 5px 0;
+}
+
+footer p {
+  font-size: 17px;
+}
+
+footer .copyright {
+  color: #ACAD94;
+  font-size: 20px;
+}
+.Social {
+  display: flex;    
+  justify-content: center;   
+  align-items: center;       
+  gap: 20px;  
+  margin-top: 20px;
+}
+
+.Social h2 {
+  margin: 0; 
+  font-size: 1.1rem;
+}
+
+.Social a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
 }
