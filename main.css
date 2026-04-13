@@ -129,6 +129,7 @@ h3 {
 .btn:hover {
   background: black;
   color: white;
+  transform: scale(1.2);
 }
 
 .products-section {
@@ -184,7 +185,6 @@ del {
 .product-card button {
   border: 2px solid #2E2836;
   border-radius: 5px;
-
   background-color: #2E2836;
   font-family: 'Courier New', Courier, monospace;
   font-size: 20px;
@@ -195,12 +195,10 @@ del {
 }
 
 .product-card button:hover {
-
   background-color: black;
-  border: 2px;
-  width: 160px;
-  height: 50px;
-  font-size: 30px;
+  transform: scale(1.2);
+  border: solid black;
+  border-radius: 7px;
 }
 
 .product-card button:hover a {
